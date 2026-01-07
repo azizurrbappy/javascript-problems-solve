@@ -9,7 +9,7 @@ Output: [2, 4, 6]
 */
 
 function getEvenNumbers(array) {
-  return arr.filter(n => n % 2 === 0);
+  return array.filter(n => n % 2 === 0);
 }
 
 console.log(getEvenNumbers([1, 2, 3, 4, 5, 6]));
