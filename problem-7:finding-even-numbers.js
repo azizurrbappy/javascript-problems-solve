@@ -12,4 +12,4 @@ function getEvenNumbers(array) {
   return arr.filter(n => n % 2 === 0);
 }
 
-console.log(getEvenNumbers([1, 2, 3, 4]));
+console.log(getEvenNumbers([1, 2, 3, 4, 5, 6]));
