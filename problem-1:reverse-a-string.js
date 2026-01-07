@@ -6,3 +6,10 @@ Example:
 Input: "hello"
 Output: "olleh" 
 */
+
+function reverseString(string) {
+  const reversedString = string.split('').reverse().join('');
+  return reversedString;
+}
+
+console.log(reverseString('hello'));
